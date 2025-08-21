@@ -43,7 +43,7 @@ const spider: LComponentsSpider = {
   },
   dialog: {
     run: {
-      title: '运行爬虫',
+      title: '运行中心任务',
     }
   },
   message: {

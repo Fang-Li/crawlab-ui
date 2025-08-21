@@ -80,7 +80,7 @@ const common: LCommon = {
   },
   tabs: {
     overview: '概览',
-    spiders: '爬虫',
+    spiders: '中心任务',
     schedules: '定时任务',
     tasks: '任务',
     files: '文件',
