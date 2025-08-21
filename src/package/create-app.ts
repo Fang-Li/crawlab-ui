@@ -20,9 +20,9 @@ export const getDefaultCreateAppOptions = (): CreateAppOptions => {
   return {
     initStylesheet: true,
     initScripts: true,
-    initBaiduTongji: true,
+    initBaiduTongji: false,
     initUmeng: true,
-    initClarity: true,
+    initClarity: false,
     initDemo: false,
     loadStore: true,
     loadRouter: true,
