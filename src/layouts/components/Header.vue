@@ -4,26 +4,6 @@
       <div class="left">
       </div>
       <div class="right">
-        <iframe
-          class="item"
-          src="https://ghbtns.com/github-btn.html?user=crawlab-team&repo=crawlab&type=star&count=true"
-          frameborder="0"
-          scrolling="0"
-          width="105"
-          height="20"
-          title="GitHub"
-        />
-        <el-link
-          v-if="systemInfo.edition === 'global.edition.community'"
-          v-track="{code: 'click_header_pro'}"
-          class="item"
-          href="https://www.crawlab.cn/prices"
-          target="_blank"
-          type="warning"
-        >
-          <font-awesome-icon class="icon" :icon="['fa', 'arrow-up']"/>
-          {{ t('global.upgrade.pro') }}
-        </el-link>
         <el-link
           v-track="{code: 'click_header_docs'}"
           class="item"
